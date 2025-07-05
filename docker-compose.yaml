@@ -14,3 +14,7 @@ services:
     container_name: javaweb
     ports:
       - "8081:8080"
+  nginx:
+    build: 
+      context: ./niginx
+   container_name: nginx
