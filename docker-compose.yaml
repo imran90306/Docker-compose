@@ -17,4 +17,7 @@ services:
   nginx:
     build: 
       context: ./niginx
-   container_name: nginx
+    container_name: nginx
+    ports:
+      -  "80:80"
+      
